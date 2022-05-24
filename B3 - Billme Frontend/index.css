@@ -1,0 +1,167 @@
+
+
+/* General */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+h4 {
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+}
+
+.block {
+    background-color:steelblue;
+    margin: 1px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.line {
+    display: flex;
+    background-color:steelblue;
+    margin: 1px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+
+.line-header {
+    display: flex;
+    background-color: slategray;
+    margin-bottom: 3px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+/* Nav Styles */
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    background-color: steelblue;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+  
+}
+
+.nav-logo{
+    padding: 10px;
+}
+
+.nav-logo span {
+    color: darkgrey;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover {
+    background-color: lightblue; 
+}
+  
+
+.nav-menu li {
+    list-style: none;
+    background-color: whitesmoke;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 5px;    
+}
+
+/* Bill Styles */
+
+.main-container {
+    max-width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;   
+}
+
+.tile {
+    padding: 5px;
+    border: 1px solid black;
+    max-height: 500px;
+    text-align: center;
+    border-radius: 5px;
+    
+
+}
+
+.head{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid black;
+    border-radius: 5px;  
+}
+
+
+.img {
+    grid-row:  1 / 3;
+    background-image: url(./img/road.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.financial {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.balance {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.balance .mega {
+    grid-column: 1 / 3;
+    align-self: center;
+    padding: 15px;
+    background-color: slategray;
+    
+}
+
+.invoice {
+    border-radius: 5px;
+}
+
+.payment {
+    border-radius: 5px;
+}
+
+.deductions {
+    border-radius: 5px;
+}

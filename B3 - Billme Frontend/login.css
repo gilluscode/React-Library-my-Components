@@ -1,0 +1,116 @@
+/* General */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Nav Bar Styling */
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(154, 179, 170, 0.644); ;
+    padding: 10px;
+ 
+}
+
+.nav-logo{
+    padding: 10px;
+}
+
+.nav-logo span {
+    color: darkgrey;
+}
+
+
+.nav-menu ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: rgba(154, 179, 170, 0.644)
+}
+  
+
+.nav-menu li {
+    list-style: none;
+    background-color: whitesmoke;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 5px;    
+}
+
+/* background pic */
+.background {
+    background-image: url(./img/thedarkone.jpg);
+    height: 95vh;
+    padding: 40px;
+    
+}
+
+/* Login Styling */
+
+main {
+    max-width: 400px;
+    background-color: rgba(154, 179, 170, 0.644);
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;  
+}
+
+form {
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+
+form > h3 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+input {
+    color: #06233b;
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+#forgotPass {
+    margin: auto;
+    text-align: center;
+    max-width: 400px;
+}
+
+
+#forgotPass > a {
+    width: 100%;
+}
